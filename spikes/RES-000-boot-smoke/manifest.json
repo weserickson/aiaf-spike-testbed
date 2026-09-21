@@ -1,0 +1,24 @@
+{
+  "exp_id": "RES-000-boot-smoke",
+  "exp_key": "RES-000",
+  "git_sha": "87115bc999e4097c6986405f2ec7ffecab4a5aa2",
+  "branch": "exp/RES-000-boot-smoke",
+  "container_image_digest": "ghcr.io/weserickson/exp-base@sha256:999fcbb83d60f87db7c5e01df95dc91941285d46106a3e181dbf22adb4e71139",
+  "container_image_tag": "20260921-c00a668",
+  "invocation": "python3 run_experiment.py --seed 0",
+  "resolved_config": {
+    "seed": 0,
+    "matmul_shape": [1024, 1024],
+    "dtype": "float32"
+  },
+  "dataset_version": null,
+  "seeds": [0],
+  "pod": {
+    "pod_id": "82ywljdiqkyn76",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition MIG 1g.24gb",
+    "gpu_count": 1,
+    "datacenter": "US-PA-1",
+    "usd_per_hour": 0.59
+  },
+  "s3_prefix": "s3://aiaf-cg-fellowship/p2-selfie/RES-000/"
+}
